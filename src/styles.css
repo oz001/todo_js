@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+}
+
+.input_area {
+  background-color: aqua;
+  border-radius: 10px;
+  width: 400px;
+  padding: 10px 16px;
+  margin: 10px;
+}
+
+.incomplete_area {
+  background-color: yellow;
+  border-radius: 10px;
+  width: 400px;
+  padding: 16px;
+  margin: 10px;
+}
+
+.complete_area {
+  background-color: orange;
+  border-radius: 10px;
+  width: 400px;
+  padding: 16px;
+  margin: 10px;
+}
