@@ -2,6 +2,21 @@ body {
   font-family: sans-serif;
 }
 
+button {
+  border-radius: 10px;
+  padding: 3px 10px;
+}
+
+input {
+  border-radius: 10px;
+  padding: 7px 10px;
+}
+
+title {
+  color: gray;
+  font-weight: bold;
+}
+
 .input_area {
   background-color: aqua;
   border-radius: 10px;
