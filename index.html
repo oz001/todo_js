@@ -6,28 +6,17 @@
   </head>
 
   <body>
-    <div class="input_area">
-      <input placeholder="タスクを入力" />
-      <button>追加</button>
+    <div class="input-area">
+      <input type="text" id="input-text" placeholder="タスクを入力" />
+      <button id="btn-task-new">追加</button>
     </div>
-    <div class="incomplete_area">
+    <div class="incomplete-area">
       <p class="title">未実行のタスク</p>
-      <ul id="incomplete_list">
-        <div>
-          <li>TODOする</li>
-          <button>追加</button>
-          <button>削除</button>
-        </div>
-      </ul>
+      <ul id="incomplete-list"></ul>
     </div>
-    <div class="complete_area">
+    <div class="complete-area">
       <p class="title">実行済のタスク</p>
-      <ul id="complete_list">
-        <div>
-          <li>TODOした</li>
-          <button>戻す</button>
-        </div>
-      </ul>
+      <ul id="complete-list"></ul>
     </div>
     <script src="src/index.js"></script>
   </body>
